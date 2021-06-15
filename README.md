@@ -5,7 +5,7 @@ NVDGET downloads data from NVD CVE repository into a JSON file.
 Usage:
 
 `nvdget.py [-h] [-o OUTPUT_DIRECTORY] [-f UPDATE_FILE] [-d START_DATE]
-                 [-a] [-y YEAR] [-t INTERVAL] [-p PAGE_SIZE] [-V] [-v] [-s]
+                 [-a] [-y YEAR] [-t INTERVAL] [-p PAGE_SIZE] [-V] [-v] [-s]`
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -27,5 +27,4 @@ optional arguments:
   -V, --verbose         Verbose reporting
   -v, --version         Show version information and exit
   -s, --show            Output retrieved records to console
-`
 
